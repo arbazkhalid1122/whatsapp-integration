@@ -3,7 +3,7 @@ import styles from './page.module.css';
 
 export default function Home() {
   // Get configuration from environment variables or use defaults
-  const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '03075055899';
+  const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '03061368797';
   const message = process.env.NEXT_PUBLIC_WHATSAPP_MESSAGE || 'Hello! I would like to get in touch with you.';
 
   return (
